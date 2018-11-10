@@ -9,6 +9,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>leet-code-solution</module>
+        <module>algs-exercise</module>
     </modules>
     <packaging>pom</packaging>
     <name>algs</name>
