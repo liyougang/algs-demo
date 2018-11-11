@@ -18,7 +18,8 @@ public class SelectSort {
         if(isEmptyArray(unSortedArry)){
             return;
         }
-
+        // TODO
+        // test
         for(int i = 0; i<unSortedArry.length; i++){
             for(int j =i+1; j <unSortedArry.length; j++){
                 if(unSortedArry[i] > unSortedArry[j]){
