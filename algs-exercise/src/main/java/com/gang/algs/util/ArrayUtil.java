@@ -2,10 +2,14 @@ package com.gang.algs.util;
 
 /**
  * @author ligang
- * @desc
+ * @desc 数组工具
  * @date 2018/11/11下午1:11
  **/
 public class ArrayUtil {
+
+    private ArrayUtil(){
+        throw new IllegalStateException("ArrayUtil class");
+    }
 
     /**
      *
@@ -16,11 +20,7 @@ public class ArrayUtil {
      * @date: 2018/11/10 下午7:13
      */
     public static boolean isEmptyArray(int[] array){
-        if(array == null || array.length <=0){
-            return true;
-        }
-
-        return false;
+        return array == null || array.length <=0;
     }
 
     /**
